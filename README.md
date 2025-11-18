@@ -23,10 +23,10 @@ We provide the pretrained weights on SemanticKITTI and nuScenes datasets.
 
 | Model | Dataset | Backbone | SSC mIoU | Model Weight | Training Log | Inference Log |
 | :--- | :--- | :--- | :---: | :---: | :---: | :---: |
-| [SparseOcc (Baseline)](projects/configs/baseline/sparseocc_nusc_256.py) | nuScenes | ResNet50 | 13.2 | [Link](https://pan.baidu.com/s/1Baydxdv1CaGSpSeXmy9i2Q?pwd=96rg) | [Link](log/training/nusc_origin_tr.log) | [Link](log/inference/nusc_origin_in.md) |
-| [SpotOcc (Ours)](projects/configs/spotocc/spotocc_nusc_256.py) | nuScenes | ResNet50 | 13.7 | [Link](https://pan.baidu.com/s/1rkY-oBFtxntrNWSI5bZM0A?pwd=spot) | [Link](log/training/nusc_spot_tr.log) | [Link](log/inference/nusc_spot_in.md) |
-| [SparseOcc (Baseline)](projects/configs/baseline/sparseocc_kitti.py) | SemanticKITTI | EfficientNetB7 | 12.2 | [Link](https://pan.baidu.com/s/1g8xYs1xQWcD1xqmf7cX9HA?pwd=mgpj) | [Link](log/training/kitti_origin_tr.log) | [Link](log/inference/kitti_origin_in.md) |
-| [SpotOcc (Ours)](projects/configs/spotocc/spotocc_kitti.py) | SemanticKITTI | EfficientNetB7 | 13.3 | [Link](https://pan.baidu.com/s/1HulqJSy01L_2Pi10ldwH_A?pwd=spot) | [Link](log/training/kitti_spot_tr.log) | [Link](log/inference/kitti_spot_in.md) |
+| [SparseOcc (Baseline)](projects/configs/baseline/sparseocc_nusc_256.py) | nuScenes | ResNet50 | 13.2 | [Link](https://pan.baidu.com/s/1Baydxdv1CaGSpSeXmy9i2Q?pwd=96rg) | [Link](log/training/nusc_origin_tr.log) | [Link](log/inference/nusc_origin_in.log) |
+| [SpotOcc (Ours)](projects/configs/spotocc/spotocc_nusc_256.py) | nuScenes | ResNet50 | 13.7 | [Link](https://pan.baidu.com/s/1rkY-oBFtxntrNWSI5bZM0A?pwd=spot) | [Link](log/training/nusc_spot_tr.log) | [Link](log/inference/nusc_spot_in.log) |
+| [SparseOcc (Baseline)](projects/configs/baseline/sparseocc_kitti.py) | SemanticKITTI | EfficientNetB7 | 12.2 | [Link](https://pan.baidu.com/s/1g8xYs1xQWcD1xqmf7cX9HA?pwd=mgpj) | [Link](log/training/kitti_origin_tr.log) | [Link](log/inference/kitti_origin_in.log) |
+| [SpotOcc (Ours)](projects/configs/spotocc/spotocc_kitti.py) | SemanticKITTI | EfficientNetB7 | 13.3 | [Link](https://pan.baidu.com/s/1HulqJSy01L_2Pi10ldwH_A?pwd=spot) | [Link](log/training/kitti_spot_tr.log) | [Link](log/inference/kitti_spot_in.log) |
 
 ## Getting Started
 
