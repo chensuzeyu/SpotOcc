@@ -1,5 +1,7 @@
 # SPOT-Occ: Sparse Prototype-guided Transformer for Camera-based 3D Occupancy Prediction
 
+[![arXiv](https://img.shields.io/badge/arXiv-2602.04240-b31b1b.svg)](https://arxiv.org/abs/2602.04240)
+
 ## Abstract
 Achieving highly accurate and real-time 3D occupancy prediction from cameras is a critical requirement for the safe and practical deployment of autonomous vehicles. While this shift to sparse 3D representations solves the encoding bottleneck, it creates a new challenge for the decoder: how to efficiently aggregate information from a sparse, non-uniformly distributed set of voxel features without resorting to computationally prohibitive dense attention. In this paper, we propose a novel Prototype-based Sparse Transformer Decoder that replaces this costly interaction with an efficient, two-stage process of guided feature selection and focused aggregation. Our core idea is to make the decoder's attention prototype-guided. We achieve this through a sparse prototype selection mechanism, where each query adaptively identifies a compact set of the most salient voxel features, termed prototypes, for focused feature aggregation. To ensure this dynamic selection is stable and effective, we introduce a complementary denoising paradigm. This approach leverages ground-truth masks to provide explicit guidance, guaranteeing a consistent query-prototype association across decoder layers. Our model, dubbed SPOT-Occ, outperforms previous methods with a significant margin in speed while also improving accuracy.
 
@@ -36,6 +38,18 @@ We provide the pretrained weights on SemanticKITTI and nuScenes datasets.
 
 - [train_and_eval](docs/train_and_eval.md)
 
+## Citation
+
+If you find this work useful, please consider citing:
+
+```bibtex
+@article{spotocc2026,
+  title={SPOT-Occ: Sparse Prototype-guided Transformer for Camera-based 3D Occupancy Prediction},
+  author={Chen, Suzeyu and Li, Leheng and Chen, Ying-Cong},
+  journal={arXiv preprint arXiv:2602.04240},
+  year={2026}
+}
+```
 
 ## Acknowledgement
 
